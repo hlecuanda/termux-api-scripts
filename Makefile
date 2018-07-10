@@ -31,5 +31,6 @@ test:
 
 CHANGELOG:
 	@echo generating changelog
-	@git2cl > CHANGELOG
+	@git2cl >> CHANGELOG
 	@git add CHANGELOG
+	#@git commit --amend --no-edit
