@@ -8,15 +8,18 @@ import time
 COUNTDOWN='500'
 DESTINATION=''
 @click.command()
-@click.option()
-def sms():
+@click.argument('DESTINATON', help='number to send sms to' )
+@click.argument('LAPSE', help='number of repetitions')
+@click.argument('COUNTDOWN', help='seconds for each repetition')
+def sms(DESTINATION,COUNTDOWN,LAPSE):
     ''' periodically sends an sms message to a number '''
-    while True:
+    
+    for lap in range(1,LAPSE):    
         time.sleep(1)
         smscontent: "washusi eashuwa"
         subprocess.popen('termux-sms-send','-n',DESTINATION, smscontent)
         print('       {}  '.format(COUNTDOWN)) 
-        countdown =-1
+        COUNTDOWN =-1
 
 if __name__ == "__main__":
     sms()
