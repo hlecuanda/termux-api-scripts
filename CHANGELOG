@@ -1,3 +1,9 @@
-20180709
-Gathering scripts from all over my phones and started making them
-presentable or at least not laughable for public consumption.
+2018-07-09  Hector <hector@lecuanda.com>
+
+	* DriveUploader.py, PeriodicCallRetry.zsh, SMS-figlet.py,
+	Uploader.py, sms.py: dump devel scripts
+	* README.md: getting ready to init mirror
+	* CHANGELOG: Add CHANGELOG
+	* LICENSE: Add LICENSE
+	* Initial commit
+
