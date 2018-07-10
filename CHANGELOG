@@ -1,9 +1,38 @@
+2018-07-10  HÃctor Lecuanda (H-Lo) <hector@lecuanda.com>
+
+	* requirements.txt, sms.py: added dependency on click for parsing
+	CLI'
+
+2018-07-10  HÃctor Lecuanda (H-Lo) <hector@lecuanda.com>
+
+	* Makefile: starting Makefile to automate some projet tasks
+
+2018-07-09  Héctor Lecuanda (H-Lo) <hector@lecuanda.com>
+
+	* .gitignore: Add new gitignore
+
+2018-07-10  Hector <hector@lecuanda.com>
+
+	* CHANGELOG: generate changelogsi
+
 2018-07-09  Hector <hector@lecuanda.com>
 
 	* DriveUploader.py, PeriodicCallRetry.zsh, SMS-figlet.py,
 	Uploader.py, sms.py: dump devel scripts
+
+2018-07-09  Hector <hector@lecuanda.com>
+
 	* README.md: getting ready to init mirror
+
+2018-07-09  Héctor Lecuanda (H-Lo) <hector@lecuanda.com>
+
 	* CHANGELOG: Add CHANGELOG
+
+2018-07-09  Héctor Lecuanda (H-Lo) <hector@lecuanda.com>
+
 	* LICENSE: Add LICENSE
+
+2018-07-09  Hector <hector@lecuanda.com>
+
 	* Initial commit
 
