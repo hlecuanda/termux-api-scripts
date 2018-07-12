@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 # vim: number nowrap
 
-from time import sleep
 import click
 import subprocess
 import time
+from time import sleep
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
 @click.command(context_settings=CONTEXT_SETTINGS)
 def sms():
+    ''' sms CLI utility using the termux API  '''
     pass
 
 @click.command('periodic', short_help='repeat message periodically')
@@ -25,3 +26,8 @@ def periodic(DESTINATION,COUNTDOWN,LAPSE):
         subprocess.popen('termux-sms-send','-n',DESTINATION, smscontent)
         print('       {}  '.format(COUNTDOWN)) 
         COUNTDOWN =-1
+
+
+if __name__ == '__main__':
+    sms()
+
