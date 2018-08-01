@@ -1,12 +1,12 @@
 PROGRAM= cheers.py
 .include "python.prog.mk"
 
-#BINOWN=
-#BINGRP=
-#BINMODE=
-BINDIR=$(HOME)/bin
+#BINOWN=hector
+#BINGRP=hector
+BINMODE=a+x
+BINDIR=/usr/local/bin
 BINNAME=cheer
-
+PYTHON=/usr/bin/env python3
 
 .ifndef MESSAGE
 MESSAGE!=date
