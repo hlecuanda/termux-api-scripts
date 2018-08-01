@@ -5,7 +5,6 @@ PROGRAM= cheer.py
 #BINGRP=hector
 BINMODE=a+rx,u+w
 BINDIR=/usr/local/bin
-BINNAME=cheer
 PYTHON=/usr/bin/env python3
 
 .ifndef MESSAGE
