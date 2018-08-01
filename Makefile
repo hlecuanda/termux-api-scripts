@@ -3,7 +3,7 @@ PROGRAM= cheer.py
 
 #BINOWN=hector
 #BINGRP=hector
-BINMODE=a+x
+BINMODE=a+rx,u+w
 BINDIR=/usr/local/bin
 BINNAME=cheer
 PYTHON=/usr/bin/env python3
