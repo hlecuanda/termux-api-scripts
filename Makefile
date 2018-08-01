@@ -1,4 +1,4 @@
-PROGRAM= cheers.py
+PROGRAM= cheer.py
 .include "python.prog.mk"
 
 #BINOWN=hector
